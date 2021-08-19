@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>blender - Ndoskrnl&#039;s blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Ndoskrnl&#039;s blog"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Ndoskrnl&#039;s blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="开始入门 Blender, 契机是我的米家随手吸尘器的配件-前置滤网的 ABS 框架被我烤变形了, 淘宝搜寻一番后发现卖 50+ 实在太贵, 遂自己建模打印一个."><meta property="og:type" content="blog"><meta property="og:title" content="blender"><meta property="og:url" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/"><meta property="og:site_name" content="Ndoskrnl&#039;s blog"><meta property="og:description" content="开始入门 Blender, 契机是我的米家随手吸尘器的配件-前置滤网的 ABS 框架被我烤变形了, 淘宝搜寻一番后发现卖 50+ 实在太贵, 遂自己建模打印一个."><meta property="og:locale" content="zh_CN"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-1.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-2.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-3.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-4.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-6.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-5.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-1.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-2.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-3.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-3.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-5.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-6.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-6.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-1.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-2.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-3.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-4.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-5-1.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-5-2.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-6.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-7.png"><meta property="og:image" content="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-8.png"><meta property="article:published_time" content="2021-07-28T10:56:39.000Z"><meta property="article:modified_time" content="2021-08-19T13:17:40.080Z"><meta property="article:author" content="Ndoskrnl"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/zh-cn/computer/2021/blender/1-1.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/"},"headline":"Ndoskrnl's blog","image":["http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-1.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-2.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-3.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-4.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-6.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/1-5.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-1.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-2.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-3.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-3.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-5.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-6.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/2-6.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-1.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-2.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-3.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-4.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-5-1.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-5-2.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-6.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-7.png","http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/3-8.png"],"datePublished":"2021-07-28T10:56:39.000Z","dateModified":"2021-08-19T13:17:40.080Z","author":{"@type":"Person","name":"Ndoskrnl"},"description":"开始入门 Blender, 契机是我的米家随手吸尘器的配件-前置滤网的 ABS 框架被我烤变形了, 淘宝搜寻一番后发现卖 50+ 实在太贵, 遂自己建模打印一个."}</script><link rel="canonical" href="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="Ndoskrnl&#039;s blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a><a class="navbar-item" href="/peers">Peers</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2021-07-28T10:56:39.000Z" title="7/28/2021, 10:56:39 AM">2021-07-28</time></span><span class="level-item">Updated&nbsp;<time dateTime="2021-08-19T13:17:40.080Z" title="8/19/2021, 1:17:40 PM">2021-08-19</time></span><span class="level-item"><a class="link-muted" href="/categories/computer/">computer</a></span><span class="level-item">13 分钟 read (About 1961 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">blender</h1><div class="content"><p>开始入门 Blender, 契机是我的米家随手吸尘器的配件-前置滤网的 ABS 框架被我烤变形了,<br>
+淘宝搜寻一番后发现卖 50+ 实在太贵, 遂自己建模打印一个.</p>
+<span id="more"></span>
+<h2 id="常规软件设置">常规软件设置</h2>
+<ol>
+<li>在状态栏(右下角)显示内存、显存、点线面数量等信息: <img src="/zh-cn/computer/2021/blender/1-1.png" class=""></li>
+<li>启用模拟三键鼠标(<code>Alt+鼠标左键</code> 旋转视角, 类似 MAYA 的操作): <img src="/zh-cn/computer/2021/blender/1-2.png" class=""><br>
+但是注意开启之后会导致选择循环边快捷键变成双击选择, 建议适应鼠标中键旋转视角(这样的优势在于一只手就能旋转视觉了)</li>
+<li>启用围绕选择物体旋转和自动深度(解决视角无法继续推近的问题) <img src="/zh-cn/computer/2021/blender/1-3.png" class=""></li>
+<li>启用自动加载 Python 脚本 <img src="/zh-cn/computer/2021/blender/1-4.png" class=""><br>
+一些插件需要开启, 不然可能会报错</li>
+<li>启用插件:<br>
+Node: Node Wrangler (强大的节点工具)<br>
+Rigging: Rigify (自带的强大绑骨软件)<br>
+Import-Export: Import Images as Planes (导入图像为平面)<br>
+Import-Export: Export Autocad DXF Format (.dxf) (导出为 DXF 格式)<br>
+Import-Export: Import AutoCAD DXF Format (.dxf) (导入为 DXF 格式)<br>
+Add Curve: Extra Objects (添加额外的曲线物体)<br>
+Add Mesh: BoltFactory (添加螺栓)<br>
+Add Mesh: Extra Objects (添加额外的网格物体)<br>
+Add Mesh: A.N.T.Landscape (简单地形制作)<br>
+Interface: Modifier Tools (修改器工具)<br>
+Interface: Copy Attributes Menu (复制属性菜单)<br>
+Mesh: LoopTools (Loop 工具)<br>
+Object: Bool Tool (布尔工具)<br>
+Render: Auto Tile Size (自动 Tile 大小, 能自动帮你设置渲染块数量, 提供硬件利用率)<br>
+UV: Magic UV (魔法 UV)<img src="/zh-cn/computer/2021/blender/1-6.png" class="">
+</li>
+<li>最后别忘了保存设置 <img src="/zh-cn/computer/2021/blender/1-5.png" class=""></li>
+</ol>
+<h2 id="基础操作">基础操作</h2>
+<ol>
+<li>
+<p>观察物体:</p>
+<img src="/zh-cn/computer/2021/blender/2-1.png" class="">
+<p>➀ 视角旋转: <code>鼠标中键</code> 或 <code>Alt+左键</code> (模拟三键鼠标)<br>
+➁ 视角平移: <code>Shift+鼠标中键</code> 或 <code>Shift+Alt+鼠标左键</code> (模拟三键鼠标)<br>
+➂ 摄像机视图切换: <code>小键盘0</code><br>
+➃ 透视/正交切换: <code>小键盘5</code><br>
+提示: 若是87键键盘没有小键盘, 可通过在首选项开启模拟数字键盘, 使普通数字键作为快捷键使用</p>
+<img src="/zh-cn/computer/2021/blender/2-2.png" class="">
+<ol>
+<li>摄像机相关:
+<ul>
+<li>
+<p>如何让摄像机跟随视角同步?<br>
+按 <code>N</code> 键开启 N 面板, 然后点击视图选项卡, 勾选锁定相机到视图</p>
+<img src="/zh-cn/computer/2021/blender/2-3.png" class="">
+</li>
+<li>
+<p>如何更改摄像机取景框的比例和大小?<br>
+➀ 见图:</p>
+<img src="/zh-cn/computer/2021/blender/2-3.png" class="">
+<p>➁ 在关闭锁定相机到视图的情况下, 在相机视图下直接使用鼠标滚轮和视角平移操作就可以改变相机取景框在屏幕上的大小和位置</p>
+</li>
+<li>
+<p>我找到了一个不错的角度, 如何将当前的视角快速变为摄像机视图?<br>
+场景集合列表(Scene Collection)中选中相机物体, 然后 <code>Ctrl+Alt+小键盘0</code></p>
+</li>
+</ul>
+</li>
+<li>四视图视角: <code>Ctrl+Alt+Q</code><br>
+顶视图: <code>小键盘7</code>; 底视图: <code>Ctrl+小键盘7</code><br>
+前视图: <code>小键盘1</code>; 后视图: <code>Ctrl+小键盘1</code><br>
+右视图: <code>小键盘3</code>; 左视图: <code>Ctrl+小键盘3</code><br>
+翻转当前视角: <code>小键盘9</code> (如当前是顶视图, 翻转变成底视图; 正交视图之外的情况是绕Z轴翻转)</li>
+<li>聚焦当前物体: 选中目标物体, 然后在视图中按<code>小键盘的'.'键</code><br>
+聚焦并屏蔽其他物体的显示: 选中目标物体, 然后在视图中按<code>小键盘的'/'键</code><br>
+在四视图界面, 要想同步聚焦, 按 <code>Ctrl+小键盘'.'键</code><br>
+显示整个场景: <code>Home</code> 键</li>
+</ol>
+</li>
+<li>
+<p>调整物体</p>
+<ul>
+<li>
+<p>开启移动, 旋转, 调整工具的实时显示:</p>
+<img src="/zh-cn/computer/2021/blender/2-5.png" class="">
+<p>Gizmo 可通过 <code>Ctrl+` </code> 来快速开关</p>
+</li>
+<li>
+<p>移动物体: 快捷键 <code>G</code>, 此时按 <code>X</code>、<code>Y</code>、<code>Z</code> 可使其在对应的轴上移动, 输入数字可以进行精确移动.<br>
+若要在对应的平面上移动, 可按 <code>Shift+垂直轴的字母</code>, 如 <code>Shift+Z</code> 为在 <code>X-Y</code> 平面内移动<br>
+位置归零: <code>Alt+G</code></p>
+</li>
+<li>
+<p>旋转物体: 快捷键 <code>R</code>, 默认是基于当前视角旋转, 此时再按 <code>R</code> 可进入视角深度旋转, 按 <code>X</code>、<code>Y</code>、<code>Z</code> 可使其在对应的轴上旋转, 输入数字可以进行精确旋转(角度制).<br>
+旋转归零: <code>Alt+R</code></p>
+</li>
+<li>
+<p>缩放物体: 快捷键 <code>S</code>, 按 <code>X</code>、<code>Y</code>、<code>Z</code> 可使其在对应的轴上缩放, 输入数字可以进行精确缩放.<br>
+若要在对应的平面上缩放, 可按 <code>Shift+垂直轴的字母</code><br>
+缩放归零: <code>Alt+S</code></p>
+</li>
+<li>
+<p>也可利用N面板调整物体:</p>
+<img src="/zh-cn/computer/2021/blender/2-6.png" class="">
+</li>
+</ul>
+</li>
+<li>
+<p>选择物体<br>
+按 <code>W</code> 切换选择工具, 共有四种, 分别为选择移动工具、框选工具、刷选工具、套索选择工具<br>
+还可以设置对应工具的属性(如交集选择)</p>
+<img src="/zh-cn/computer/2021/blender/2-6.png" class="">
+<p>按 <code>A</code> 键全选, 再次按 <code>A</code> 或 <code>Alt+A</code> 取消全选</p>
+</li>
+<li>
+<p>新建物体<br>
+物体添加-<code>Shift+A</code>, 注意物品添加时部分支持使用新建参数, 但这个参数仅在新建时才有效</p>
+</li>
+<li>
+<p>删除物体<br>
+两种方法: <code>Delete</code> 键删除或按 <code>X</code> 删除</p>
+</li>
+</ol>
+<h2 id="坐标系与轴心点">坐标系与轴心点</h2>
+<ol>
+<li>物体变换坐标系: 快捷键 <code>,</code>
+<ul>
+<li>
+<p><strong>局部坐标系</strong>为基于物体本身方向的坐标系<br>
+可在对象属性下的视图显示里开启局部坐标轴显示:</p>
+<img src="/zh-cn/computer/2021/blender/3-1.png" class="">
+<p>进入变换模式, 二次点击轴字母即可快速切换全局/局部坐标系.<br>
+可以在编辑器的顶栏设置默认使用的坐标系:</p>
+<img src="/zh-cn/computer/2021/blender/3-2.png" class="">
+</li>
+<li>
+<p>法向(Normal)坐标系<br>
+切换到法向模式, 进入编辑模式中的面选择模式, 点击一个平面, 可以看到Z轴和这个平面平行<br>
+(按 <code>Tab</code> 进入编辑模式, 此时按 <code>1</code>、<code>2</code>、<code>3</code> 进入点、线、面选择模式)</p>
+<img src="/zh-cn/computer/2021/blender/3-3.png" class="">
+<p>同样的, 进入变换模式后, 二次点击轴字母即可快速切换到全局坐标系</p>
+</li>
+<li>
+<p>万向(Gimbal)坐标系<br>
+对于万向轴来说, 它可通过固定两个轴(旋转轴和转向轴)的方式让第三个绕旋转轴旋转,<br>
+如让某个圆球的万向轴设置为旋转轴是它的的局部X轴, 转向轴为它的局部Z轴,<br>
+可在物体属性的变换下选择模式为 “YXZ Eular” (第二个为旋转轴, 第三个为转向轴):<br>
+此时当我们尝试将物体绕着X轴旋转, Y轴会发生变化, 但无论如何旋转, 万向坐标系的Z轴永远保持全局坐标Z轴一个方向, 且万向Z轴与X轴始终保持正交</p>
+<img src="/zh-cn/computer/2021/blender/3-4.png" class="">
+</li>
+<li>
+<p>视图坐标系<br>
+坐标轴XY与视窗锁定, 上下为Y, 左右为X, 垂直平面为Z</p>
+</li>
+<li>
+<p>创建坐标系功能<br>
+使场景中所有的物体的坐标系为某个物体的局部坐标系<br>
+(复制物体の两种方法: 选中物体, <code>Ctrl+C</code> + <code>Ctrl+V</code> 或 <code>Shift+V</code>)<br>
+选中某个物体, 点击变换坐标系菜单的&quot;+&quot;号:</p>
+<img src="/zh-cn/computer/2021/blender/3-5-1.png" class="">
+<p>此时会生成一个与该物体名称相同的坐标系, 其他物体的坐标系变为此物体的局部坐标系:</p>
+<img src="/zh-cn/computer/2021/blender/3-5-2.png" class="">
+</li>
+<li>
+<p>游标坐标系<br>
+和创建坐标系功能相似, 可以选择游标工具或在选择工具下按住 <code>Shift+鼠标右键</code> 拖动, 移动后游标会朝向移动时的视角</p>
+<img src="/zh-cn/computer/2021/blender/3-6.png" class="">
+</li>
+</ul>
+</li>
+<li>物体变换轴心点<br>
+物体中键的橘黄色的小点称为原点, 可在编辑器右上角的选项中启用仅影响原点来对原点进行变换操作:<img src="/zh-cn/computer/2021/blender/3-7.png" class="">
+移动了原点后, 可通过右键菜单中的设置原点子菜单恢复原点位置:<br>
+(分别是几何中心到原点, 原点到几何中心, 原点到3D游标, 原点到质心(表面), 原点到质心(体积))<img src="/zh-cn/computer/2021/blender/3-8.png" class=""></li>
+</ol>
+</div><div class="article-licensing box"><div class="licensing-title"><p>blender</p><p><a href="http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/">http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Ndoskrnl</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2021-07-28</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-08-19</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/zh-cn/medicine/2021/vitamin-c-tablets/"><span class="level-item">vitamin-c-tablets</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'http://blog.ndoskrnl.net/zh-cn/computer/2021/blender/';
+            this.page.identifier = 'zh-cn/computer/2021/blender/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'ndoskrnls-blog' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Catalogue</h3><ul class="menu-list"><li><a class="level is-mobile" href="#常规软件设置"><span class="level-left"><span class="level-item">1</span><span class="level-item">常规软件设置</span></span></a></li><li><a class="level is-mobile" href="#基础操作"><span class="level-left"><span class="level-item">2</span><span class="level-item">基础操作</span></span></a></li><li><a class="level is-mobile" href="#坐标系与轴心点"><span class="level-left"><span class="level-item">3</span><span class="level-item">坐标系与轴心点</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/computer/"><span class="level-start"><span class="level-item">computer</span></span><span class="level-end"><span class="level-item tag">13</span></span></a></li><li><a class="level is-mobile" href="/categories/daily-life/"><span class="level-start"><span class="level-item">daily-life</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/ideology-and-politics/"><span class="level-start"><span class="level-item">ideology-and-politics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/learn/"><span class="level-start"><span class="level-item">learn</span></span><span class="level-end"><span class="level-item tag">16</span></span></a><ul><li><a class="level is-mobile" href="/categories/learn/mathematics/"><span class="level-start"><span class="level-item">mathematics</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/medicine/"><span class="level-start"><span class="level-item">medicine</span></span><span class="level-end"><span class="level-item tag">6</span></span></a></li><li><a class="level is-mobile" href="/categories/minecraft/"><span class="level-start"><span class="level-item">minecraft</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/mathematics/"><span class="tag">mathematics</span><span class="tag">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine/"><span class="tag">medicine</span><span class="tag">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-Estrogens/"><span class="tag">medicine:Estrogens</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-OTC/"><span class="tag">medicine:OTC</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-Rx/"><span class="tag">medicine:Rx</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-SSRI/"><span class="tag">medicine:SSRI</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-antibiotic/"><span class="tag">medicine:antibiotic</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-cream/"><span class="tag">medicine:cream</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-gel/"><span class="tag">medicine:gel</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-retinoid/"><span class="tag">medicine:retinoid</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/medicine-tablets/"><span class="tag">medicine:tablets</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/postgraduate/"><span class="tag">postgraduate</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/senior-high-schoool/"><span class="tag">senior-high-schoool</span><span class="tag">1</span></a></div></div></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="Ndoskrnl&#039;s blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Ndoskrnl</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.js" defer></script><script>window.addEventListener("load", function() {
+            document.querySelectorAll('[role="article"] > .content').forEach(function(element) {
+                renderMathInElement(element);
+            });
+        });</script><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
